@@ -1,0 +1,159 @@
+# depslib dependency file v1.0
+1496141334 source:/home/mathieulattes/dev/gdal_rename/gdal_rename.cpp
+	<iostream>
+	"gdal_priv.h"
+	"cpl_error.h"
+	"cpl_conv.h"
+	"cpl_vsi.h"
+	"json_object.h"
+	"ogr_srs_api.h"
+	"commonutils.h"
+	<string>
+	<math.h>
+
+1493396129 /home/mathieulattes/dev/gdal-2.2.0/gcore/gdal_priv.h
+	"gdal.h"
+	"gdal_frmts.h"
+	"cpl_vsi.h"
+	"cpl_conv.h"
+	"cpl_string.h"
+	"cpl_minixml.h"
+	"cpl_multiproc.h"
+	"cpl_atomic_ops.h"
+	<vector>
+	<map>
+	"ogr_core.h"
+
+1493396129 /home/mathieulattes/dev/gdal-2.2.0/gcore/gdal.h
+	"gdal_version.h"
+	"cpl_port.h"
+	"cpl_error.h"
+	"cpl_progress.h"
+	"cpl_virtualmem.h"
+	"cpl_minixml.h"
+	"ogr_api.h"
+
+1493396129 /home/mathieulattes/dev/gdal-2.2.0/gcore/gdal_version.h
+
+1493396124 /home/mathieulattes/dev/gdal-2.2.0/port/cpl_port.h
+	"cpl_config.h"
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<stdarg.h>
+	<string.h>
+	<ctype.h>
+	<limits.h>
+	<time.h>
+	<errno.h>
+	<locale.h>
+	<direct.h>
+	<strings.h>
+	<dbmalloc.h>
+	<dmalloc.h>
+	<stdint.h>
+	<locale.h>
+	<unistd.h>
+	<sys/types.h>
+	<iconv.h>
+	<sys/mman.h>
+	<signal.h>
+	<dlfcn.h>
+	<netdb.h>
+	<fcntl.h>
+	<string>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<cstddef>
+	<ostream>
+	<iostream>
+	<sstream>
+	<float.h>
+	<cmath>
+	<ieeefp.h>
+	<x86intrin.h>
+	<sal.h>
+	<vector>
+	<map>
+	<set>
+	<string>
+	<cstddef>
+	<limits>
+	<sstream>
+	<fstream>
+	<algorithm>
+
+1496074665 /home/mathieulattes/dev/gdal-2.2.0/port/cpl_config.h
+
+1493396124 /home/mathieulattes/dev/gdal-2.2.0/port/cpl_error.h
+	"cpl_port.h"
+	<stdarg.h>
+	<stddef.h>
+
+1493396124 /home/mathieulattes/dev/gdal-2.2.0/port/cpl_progress.h
+	"cpl_port.h"
+
+1493396124 /home/mathieulattes/dev/gdal-2.2.0/port/cpl_virtualmem.h
+	<stddef.h>
+	"cpl_port.h"
+	"cpl_vsi.h"
+
+1493396124 /home/mathieulattes/dev/gdal-2.2.0/port/cpl_vsi.h
+	"cpl_port.h"
+	<unistd.h>
+	<sys/stat.h>
+	"cpl_error.h"
+
+1493396124 /home/mathieulattes/dev/gdal-2.2.0/port/cpl_minixml.h
+	"cpl_port.h"
+
+1493396126 /home/mathieulattes/dev/gdal-2.2.0/ogr/ogr_api.h
+	"cpl_progress.h"
+	"cpl_minixml.h"
+	"ogr_core.h"
+
+1493396126 /home/mathieulattes/dev/gdal-2.2.0/ogr/ogr_core.h
+	"cpl_port.h"
+	"gdal_version.h"
+	<limits>
+
+1493396129 /home/mathieulattes/dev/gdal-2.2.0/gcore/gdal_frmts.h
+	"cpl_port.h"
+
+1493396124 /home/mathieulattes/dev/gdal-2.2.0/port/cpl_conv.h
+	"cpl_port.h"
+	"cpl_vsi.h"
+	"cpl_error.h"
+
+1493396124 /home/mathieulattes/dev/gdal-2.2.0/port/cpl_string.h
+	"cpl_error.h"
+	"cpl_conv.h"
+	"cpl_vsi.h"
+	<string>
+
+1493396124 /home/mathieulattes/dev/gdal-2.2.0/port/cpl_multiproc.h
+	"cpl_port.h"
+
+1493396124 /home/mathieulattes/dev/gdal-2.2.0/port/cpl_atomic_ops.h
+	"cpl_port.h"
+
+1493396126 /home/mathieulattes/dev/gdal-2.2.0/ogr/ogrsf_frmts/geojson/libjson/json_object.h
+	"symbol_renames.h"
+	"cpl_port.h"
+	"json_inttypes.h"
+
+1493396126 /home/mathieulattes/dev/gdal-2.2.0/ogr/ogrsf_frmts/geojson/libjson/symbol_renames.h
+
+1493396126 /home/mathieulattes/dev/gdal-2.2.0/ogr/ogrsf_frmts/geojson/libjson/json_inttypes.h
+	"json_config.h"
+	<inttypes.h>
+
+1493396126 /home/mathieulattes/dev/gdal-2.2.0/ogr/ogrsf_frmts/geojson/libjson/json_config.h
+
+1493396125 /home/mathieulattes/dev/gdal-2.2.0/ogr/ogr_srs_api.h
+	"ogr_core.h"
+
+1493396124 /home/mathieulattes/dev/gdal-2.2.0/apps/commonutils.h
+	"cpl_port.h"
+
